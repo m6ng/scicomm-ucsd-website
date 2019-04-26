@@ -1,12 +1,12 @@
 {
-	"name": "SciComm website",
+	"name": "scicomm-ucsd-website",
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
 		"start": "serve front_page.html"
 	},
 	"dependencies": {
-		"serve": "^10.0.1"
+		"serve": "^11.0.0"
 	},
 	"author": "Mervin Ng"
 }
