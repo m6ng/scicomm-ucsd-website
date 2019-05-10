@@ -1,0 +1,35 @@
+.row-striped:nth-of-type(odd){
+    background-color: #efefef;
+    border-left: 4px #000000 solid;
+}
+
+.row-striped:nth-of-type(even){
+    background-color: #ffffff;
+    border-left: 4px #efefef solid;
+}
+
+.row-striped {
+    padding: 15px 0;
+}
+
+.calendar {
+    border: solid black 2px;
+    overflow: scroll;
+    height: 600px;
+}
+
+.carousel img {
+    width: 640px;
+    height: 480px;
+    object-fit: contain;
+    background: #d0d0d0;
+}
+
+#body-content {
+    background-color: #fafad2;
+    padding: 2rem;
+}
+
+#scicomm-blurb {
+    background-color: #f0e68c;
+}

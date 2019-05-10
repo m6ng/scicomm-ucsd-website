@@ -10,37 +10,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <style>
-      .row-striped:nth-of-type(odd){
-        background-color: #efefef;
-        border-left: 4px #000000 solid;
-      }
-
-      .row-striped:nth-of-type(even){
-        background-color: #ffffff;
-        border-left: 4px #efefef solid;
-      }
-
-      .row-striped {
-          padding: 15px 0;
-      }
-
-      .calendar {
-          border: solid black 2px;
-          overflow: scroll;
-          height: 600px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 
   </head>
-  <body>
-    <div class="container col-11" style="margin-bottom: 20px">
+  <body style="margin: 1rem 2rem 1rem">
+    <div class="container">
       <div class="row">
         <div class="col-10">
-          <h1>
-            SciComm @ UCSD
-          </h1>
-          <h3>The hub for getting involved in Science Communication</h3>
+          <h1>SciComm @ UCSD</h1>
+          <h4>The hub for getting involved in Science Communication</h3>
         </div>
         <div class="col-2" align="center">
           <img src="images/SciComm_logo.png" ALT="some text" height=120>
@@ -64,7 +42,7 @@
 
     </div>
 
-    <div class="container col-11" style="background-color: yellow; padding: 20px;">
+    <div class="container" id="body-content">
       <div class="row">
 
         <div class="col-8">
@@ -82,7 +60,7 @@
                   <img src="images/puppy(2).jpg" class="d-inline w-100" alt="1">
                 </div>
                 <div class="carousel-item">
-                  <img src="images/Pokemon_Type_Test_Result(2).png" class="d-inline w-100" alt="2">
+                  <img src="images/eevee_phone_wallpaper.png" class="d-inline w-100" alt="2">
                 </div>
                 <div class="carousel-item">
                   <img src="images/Violet_Evergarden_background_letters(2).jpg" class="d-inline w-100" alt="3">
@@ -100,10 +78,17 @@
             <br>
 
             <!--SciComm Introduction Blurb-->
-            <h2 style="text-align: center"><u>Welcome to SciComm Hub!</u></h2>
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
+            <div class="jumbotron" id="scicomm-blurb">
+              <h2 class="display-5">Welcome to SciComm Hub!</h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
+                aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>
 
         </div>
 
