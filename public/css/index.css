@@ -1,3 +1,27 @@
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    position:relative;
+}
+
+header {
+    background:#e0e0e0;
+    padding: 10px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: #9cf;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
 .row-striped:nth-of-type(odd){
     background-color: #efefef;
     border-left: 4px #000000 solid;
@@ -15,7 +39,7 @@
 .calendar {
     border: solid black 2px;
     overflow: scroll;
-    height: 600px;
+    height: 50rem;
 }
 
 .carousel img {
